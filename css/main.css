@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#welcome {
+    text-align: center;
+    background: #083db4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center-vert {
+    position: absolute;
+    width:100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4em;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a {
+    color: #a8c2ff;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+i {
+    font-size: 2em;
+}
